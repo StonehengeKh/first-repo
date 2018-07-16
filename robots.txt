@@ -1,0 +1,5 @@
+# Инструкция для робота
+User-Agent: *
+Disallow: /js
+Host: http://vr.kh.ua
+Sitemap: http://vr.kh.ua/sitemap

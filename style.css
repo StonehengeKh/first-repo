@@ -1,0 +1,1590 @@
+                                                @import "http://webfonts.ru/import/bender.css";
+                                                html,
+                                                body {
+                                                    height: 100%;
+                                                    overflow-x: hidden;
+                                                }
+                                                
+                                                * {
+                                                    outline: none;
+                                                }
+                                                
+                                                body {
+                                                    margin: 0px;
+                                                    padding: 0px;
+                                                    background: #b6daec;
+                                                    font-family: "bender", sans-serif;
+                                                }
+                                                
+                                                h1 {
+                                                    font-size: 30px;
+                                                    font-family: "bender", sans-serif;
+                                                    text-align: center;
+                                                }
+                                            }
+                                            h2,
+                                            h3,
+                                            h4,
+                                            h5,
+                                            h6 {
+                                                font-family: "bender", sans-serif;
+                                            }
+                                            p {
+                                                text-indent: 6px;
+                                            }
+                                            hgroup {
+                                                position: fixed;
+                                                z-index: 100;
+                                                left: 0px;
+                                                top: 10px;
+                                                padding: 10px;
+                                                color: #FFF;
+                                                font-size: 23px;
+                                                letter-spacing: 1px;
+                                                text-shadow: rgba(0, 0, 0, 0.50) 0 1px 1px;
+                                            }
+                                            hgroup h1 {
+                                                margin: 0px;
+                                                text-shadow: rgba(0, 0, 0, 1) 3px 2px 0;
+                                            }
+                                            hgroup h4 {
+                                                font-family: 'Century Gothic', arial, serif;
+                                                font-size: 22px;
+                                                font-weight: normal;
+                                                margin: 0px;
+                                            }
+                                            hgroup a {
+                                                text-decoration: none;
+                                                color: #FFF;
+                                                -webkit-transition: all 1s ease-out;
+                                                -moz-transition: all 1s ease-out;
+                                                -o-transition: all 1s ease-out;
+                                                -ms-transition: all 1s ease-out;
+                                                transition: all 1s ease-out;
+                                            }
+                                            hgroup a:hover {
+                                                color: #0b75af;
+                                                -webkit-transition: all 0.5s ease-out;
+                                                -moz-transition: all 0.5s ease-out;
+                                                -o-transition: all 0.5s ease-out;
+                                                -ms-transition: all 0.5s ease-out;
+                                                transition: all 0.5s ease-out;
+                                            }
+                                            .block-img {
+                                                width: 100%;
+                                                max-width: 450px;
+                                                margin: 0 auto;
+                                            }
+                                            .img {
+                                                width: 100%;
+                                                height: auto;
+                                            }
+                                            .vneshn-utp-sten-cont {
+                                                width: 100%;
+                                            }
+                                            .str {
+                                                font-size: 20px;
+                                                text-align: center;
+                                            }
+                                            .centrs {
+                                                position: relative;
+                                                left: 62px;
+                                            }
+                                            .usluga-dom {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            #top-menu {
+                                                padding: 50px;
+                                                padding-top: 30px;
+                                                font-family: "Arial", sans-serif;
+                                                font-size: 18px;
+                                                line-height: 1.4;
+                                            }
+                                            .top-menus {
+                                                float: left;
+                                                width: 220px;
+                                                margin: 0;
+                                                padding: 0;
+                                                list-style: none;
+                                            }
+                                            .top-menus a {
+                                                display: block;
+                                                margin-bottom: -1px;
+                                                padding: 8px 14px;
+                                                text-decoration: none;
+                                                color: #0088cc;
+                                                background-color: #ececec;
+                                                border: 1px solid #e5e5e5;
+                                                border-radius: 5px;
+                                                box-shadow: 0 0 4px #000 inset;
+                                            }
+                                            .top-menus a:hover {
+                                                background: rgb(187, 185, 185);
+                                            }
+                                            .top-menus>li {
+                                                position: relative;
+                                            }
+                                            .top-menus .sub-menu {
+                                                position: absolute;
+                                                top: 5px;
+                                                left: 210px;
+                                                z-index: 101;
+                                                display: none;
+                                                width: 280px;
+                                                margin: 0;
+                                                padding: 0;
+                                                list-style: none;
+                                                background: #fcf8e3;
+                                                border-radius: 5px;
+                                            }
+                                            .top-menus>li:hover .sub-menu {
+                                                display: block;
+                                            }
+                                            #content-page {
+                                                float: right;
+                                                width: 950px;
+                                                height: auto;
+                                                position: fixed;
+                                                left: 300px;
+                                                top: 50px;
+                                                bottom: 30px;
+                                                box-shadow: 0 0 4px #000 inset;
+                                                color: rgb(59, 59, 59);
+                                                border: solid 2px red;
+                                                background-color: #ececec;
+                                                border: 1px solid #cecece;
+                                                border-radius: 5px;
+                                                overflow-y: scroll;
+                                                overflow-x: hidden;
+                                                z-index: 50;
+                                                padding: 10px;
+                                            }
+                                            .block-phone {
+                                                position: absolute;
+                                                top: 80px;
+                                                left: 0;
+                                                bottom: 30px;
+                                                margin-top: 290px;
+                                                margin-left: 60px;
+                                                width: 190px;
+                                                height: auto;
+                                                min-height: 215px;
+                                                padding: 8px 14px;
+                                                color: #0088cc;
+                                                background-color: #ececec;
+                                                opacity: 1;
+                                                border: 1px solid #cecece;
+                                                border-radius: 5px;
+                                                z-index: 10;
+                                                font-size: 16px;
+                                                text-decoration: none;
+                                                font-family: "Arial", sans-serif;
+                                                text-shadow: rgba(0, 0, 0, 0.50) 0 1px 1px;
+                                                list-style: none;
+                                                box-shadow: 0 0 4px #000 inset;
+                                            }
+                                            .block-phone .title-phone {
+                                                margin-bottom: 10px;
+                                                margin-top: 5px;
+                                                font-size: 20px;
+                                                font-weight: bold;
+                                            }
+                                            .block-phone .item {
+                                                position: relative;
+                                                margin-bottom: 5px;
+                                                padding-left: 55px;
+                                                line-height: 1.3;
+                                            }
+                                            .block-phone .icon {
+                                                position: absolute;
+                                                top: -3px;
+                                                left: 5px;
+                                                width: 35px;
+                                                height: 25px;
+                                            }
+                                            #content-page p {
+                                                text-indent: 25px;
+                                            }
+                                            #content-page-two {
+                                                width: 900px;
+                                                height: 700px;
+                                                position: fixed;
+                                                z-index: 100;
+                                                left: 194px;
+                                                top: 150px;
+                                                font-size: 23px;
+                                                box-shadow: 0 0 4px #000 inset;
+                                                color: #fff;
+                                                border: solid 2px red;
+                                                background-color: rgba(0, 0, 0, 0.8);
+                                                border: 1px solid #cecece;
+                                                border-radius: 10px;
+                                                overflow-y: hidden;
+                                                padding: 10px;
+                                            }
+                                            .no-content {
+                                                cursor: default;
+                                            }
+                                            .rollbar-content {
+                                                width: 99%;
+                                            }
+                                            .rollbar-content li:last-child {
+                                                clear: right;
+                                            }
+                                            .clear {
+                                                width: 100%;
+                                                clear: both;
+                                                float: left;
+                                            }
+                                            .razmer {
+                                                width: 35%;
+                                                float: left;
+                                            }
+                                            .razmer-dvas {
+                                                float: left;
+                                                width: 65%;
+                                            }
+                                            .utp-page-block-one {
+                                                margin: 0 auto;
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .str-spn {
+                                                font-size: 19px;
+                                                position: relative;
+                                                left: 85px;
+                                            }
+                                            #toolbar {
+                                                position: fixed;
+                                                z-index: 3;
+                                                right: 10px;
+                                                top: 10px;
+                                                padding: 5px;
+                                                background: url(images/fs_img_g_bg.png);
+                                            }
+                                            .vneshn-utp-sten {
+                                                width: 290px;
+                                                float: left;
+                                            }
+                                            .vneshn-utp-sten-block2 {
+                                                width: auto;
+                                                float: left;
+                                            }
+                                            @keyframes swingdown {
+                                                0% {
+                                                    opacity: .99999;
+                                                    transform: rotateX(90deg);
+                                                }
+                                                
+                                                30% {
+                                                    transform: rotateX(-20deg) rotateY(5deg);
+                                                    animation-timing-function: ease-in-out;
+                                                }
+                                                
+                                                65% {
+                                                    transform: rotateX(20deg) rotateY(-3deg);
+                                                    animation-timing-function: ease-in-out;
+                                                }
+                                                
+                                                100% {
+                                                    transform: rotateX(0);
+                                                    animation-timing-function: ease-in-out;
+                                                }
+                                            }
+                                            /****************/
+                                            #toolbar img {
+                                                border: none;
+                                            }
+                                            #img_title {
+                                                z-index: 3;
+                                                right: 10px;
+                                                bottom: 60%;
+                                                padding: 10px;
+                                                color: #FFF;
+                                                text-transform: uppercase;
+                                                font-size: 30px;
+                                                letter-spacing: 1px;
+                                                display: none;
+                                            }
+                                            #bg {
+                                                position: fixed;
+                                                z-index: 1;
+                                                overflow: hidden;
+                                                width: 100%;
+                                                height: 100%;
+                                            }
+                                            #overlay {
+                                                width: 100%;
+                                                height: 100%;
+                                                position: fixed;
+                                                top: 0px;
+                                                left: 0px;
+                                                background: url(images/dotted.png);
+                                                opacity: 0.3;
+                                            }
+                                            #bgimg {
+                                                display: none;
+                                                -ms-interpolation-mode: bicubic;
+                                            }
+                                            .img-portret {
+                                                border: solid 4px #fff;
+                                                -moz-border: solid 4px #fff;
+                                                -webkit-border: solid 4px #fff;
+                                                -ms-border: solid 4px #fff;
+                                                -o-border: solid 4px #fff;
+                                                border-radius: 50%;
+                                                -moz-border-radius: 50%;
+                                                -webkit-border-radius: 50%;
+                                                -ms-border-radius: 50%;
+                                                -o-border-radius: 50%;
+                                                margin: 5px 0 0 0px;
+                                            }
+                                            .img-portret-2 {
+                                                border: solid 4px #fff;
+                                                -moz-border: solid 4px #fff;
+                                                -webkit-border: solid 4px #fff;
+                                                -ms-border: solid 4px #fff;
+                                                -o-border: solid 4px #fff;
+                                                float: left;
+                                                margin: 8px;
+                                            }
+                                            .img-portret-2:hover {
+                                                transform: rotate(4deg);
+                                                transition: all 0.4s ease-in-out;
+                                            }
+                                            .img-portret-3 {
+                                                border: solid 4px #fff;
+                                                -moz-border: solid 4px #fff;
+                                                -webkit-border: solid 4px #fff;
+                                                -ms-border: solid 4px #fff;
+                                                -o-border: solid 4px #fff;
+                                                margin: 5px 0 0 0;
+                                                float: right;
+                                                margin: 10px;
+                                            }
+                                            .img-portret-4 {
+                                                border: solid 4px #fff;
+                                                -moz-border: solid 4px #fff;
+                                                -webkit-border: solid 4px #fff;
+                                                -ms-border: solid 4px #fff;
+                                                -o-border: solid 4px #fff;
+                                                border-radius: 50%;
+                                                -moz-border-radius: 50%;
+                                                -webkit-border-radius: 50%;
+                                                -ms-border-radius: 50%;
+                                                -o-border-radius: 50%;
+                                                margin: 0px -10px 0 0;
+                                                float: left;
+                                            }
+                                            .tnn {
+                                                margin: -57px 0 0 113px;
+                                            }
+                                            .ttn {
+                                                float: right;
+                                                margin: 0 -21px 0 0;
+                                            }
+                                            .tnt {
+                                                margin: 0 0 0 50px;
+                                            }
+                                            .index-block-1 {
+                                                width: 50%;
+                                                float: left;
+                                            }
+                                            .index-block-1 p {
+                                                font-size: 18px;
+                                                text-indent: 25px;
+                                            }
+                                            .usluga-price {
+                                                float: right;
+                                                margin: 20px -22px 0 0px;
+                                            }
+                                            .index-block-1 li {
+                                                font-size: 18px;
+                                            }
+                                            .contect-block-1 {
+                                                float: left;
+                                                margin: 15px 0 0 14px;
+                                                padding: 30px 5px 0 5px;
+                                                width: 47%;
+                                                border-left: solid 1px #fff;
+                                                border-right: solid 1px #fff;
+                                            }
+                                            .contect-block-1 p {
+                                                font-size: 19px;
+                                            }
+                                            .contect-block-1 span {
+                                                font-size: 40px;
+                                                margin: 0 0 0 80px;
+                                            }
+                                            .contect-block-1 .item2 {
+                                                position: relative;
+                                                margin-bottom: 12px;
+                                            }
+                                            .contect-block-1 .icon2 {
+                                                position: absolute;
+                                                top: -2px;
+                                                left: 5px;
+                                                width: 55px;
+                                                height: 50px;
+                                            }
+                                            .contect-block-1 .vodaf {
+                                                width: 55px;
+                                                height: 40px;
+                                                margin-top: 5px;
+                                            }
+                                            .hrs {
+                                                margin: 15px 0 0 10px;
+                                                width: 98%;
+                                                float: left;
+                                            }
+                                            .hrs p {
+                                                font-size: 19px;
+                                            }
+                                            #preloader {
+                                                position: relative;
+                                                z-index: 3;
+                                                width: 32px;
+                                                padding: 20px;
+                                                top: 80px;
+                                                margin: auto;
+                                                background: #000;
+                                            }
+                                            #thumbnails_wrapper {
+                                                z-index: 2;
+                                                position: fixed;
+                                                bottom: 0%;
+                                                width: 100%;
+                                                height: 205px;
+                                                background: url(images/empty.gif);
+                                            }
+                                            #outer_container {
+                                                position: relative;
+                                                padding: 0;
+                                                width: 100%;
+                                                margin: 40px auto;
+                                            }
+                                            #outer_container .thumbScroller {
+                                                position: relative;
+                                                overflow: hidden;
+                                                background: url(images/fs_img_g_bg.png);
+                                                background: rgba(110, 110, 110, 0.85);
+                                            }
+                                            #outer_container .thumbScroller,
+                                            #outer_container .thumbScroller .container,
+                                            #outer_container .thumbScroller .content {
+                                                height: 170px;
+                                            }
+                                            .second {
+                                                display: none;
+                                            }
+                                            #outer_container .thumbScroller .container {
+                                                position: relative;
+                                                left: 0;
+                                            }
+                                            #outer_container .thumbScroller .content {
+                                                float: left;
+                                            }
+                                            #outer_container .thumbScroller .content div {
+                                                margin: 5px;
+                                                height: 100%;
+                                            }
+                                            #outer_container .thumbScroller img {
+                                                border: 3px solid #fff;
+                                            }
+                                            #outer_container .thumbScroller .content div a {
+                                                display: block;
+                                                padding: 5px;
+                                            }
+                                            .nextImageBtn,
+                                            .prevImageBtn {
+                                                display: block;
+                                                position: absolute;
+                                                width: 30px;
+                                                height: 30px;
+                                                top: 50%;
+                                                margin: 0;
+                                                z-index: 1005;
+                                                filter: alpha(opacity=40);
+                                                -moz-opacity: 0.4;
+                                                -khtml-opacity: 0.4;
+                                                opacity: 0.5;
+                                                -webkit-transition: all .25s linear;
+                                                -moz-transition: all .25s linear;
+                                                -o-transition: all .25s linear;
+                                                -ms-transition: all .25s linear;
+                                                transition: all .25s linear;
+                                            }
+                                            .nextImageBtn:hover,
+                                            .prevImageBtn:hover {
+                                                filter: alpha(opacity=80);
+                                                -moz-opacity: 0.8;
+                                                -khtml-opacity: 0.8;
+                                                z-index: 1005;
+                                                opacity: 1;
+                                                -webkit-transition: all .25s linear;
+                                                -moz-transition: all .25s linear;
+                                                -o-transition: all .25s linear;
+                                                -ms-transition: all .25s linear;
+                                                transition: all .25s linear;
+                                            }
+                                            .nextImageBtn {
+                                                top: 10px;
+                                                right: 340px;
+                                                background: rgba(1, 1, 1, 0) url(images/nextImgBtn.png) center center no-repeat;
+                                            }
+                                            .prevImageBtn {
+                                                top: 10px;
+                                                left: 340px;
+                                                background: rgba(1, 1, 1, 0) url(images/prevImgBtn.png) center center no-repeat;
+                                            }
+                                            ul.menu {
+                                                margin: 0;
+                                                margin-top: -195px;
+                                                padding: 0;
+                                                list-style: none;
+                                                font-size: 14px;
+                                                width: 540px;
+                                                position: absolute;
+                                                top: 270px;
+                                                right: 0%
+                                            }
+                                            ul.menu-galery {
+                                                margin: 0;
+                                                margin-top: -195px;
+                                                padding: 0;
+                                                list-style: none;
+                                                font-size: 14px;
+                                                width: 405px;
+                                                position: absolute;
+                                                top: 270px;
+                                                right: 0%
+                                            }
+                                            ul.menu-article {
+                                                margin: 0;
+                                                margin-top: -195px;
+                                                padding: 0;
+                                                list-style: none;
+                                                font-size: 14px;
+                                                width: 540px;
+                                                position: absolute;
+                                                top: 270px;
+                                                right: 0%
+                                            }
+                                            .ather {
+                                                color: #fd090f;
+                                            }
+                                            ul.vusot {
+                                                margin: 0;
+                                                margin-top: -195px;
+                                                padding: 0;
+                                                list-style: none;
+                                                font-size: 14px;
+                                                width: 270px;
+                                                position: absolute;
+                                                top: 270px;
+                                                right: 0%
+                                            }
+                                            ul.menu-contact {
+                                                margin: 0;
+                                                margin-top: -195px;
+                                                padding: 0;
+                                                list-style: none;
+                                                font-size: 14px;
+                                                width: 270px;
+                                                position: absolute;
+                                                top: 270px;
+                                                right: 0%
+                                            }
+                                            ul.menu a {
+                                                text-decoration: none;
+                                                outline: none;
+                                            }
+                                            ul.menu li {
+                                                float: left;
+                                                width: 135px;
+                                                height: 61px;
+                                                position: relative;
+                                                cursor: pointer;
+                                            }
+                                            ul.menu li>a {
+                                                position: absolute;
+                                                top: 0px;
+                                                left: 0px;
+                                                width: 135px;
+                                                height: 61px;
+                                                z-index: 12;
+                                                background: transparent url(images/overlay.png) no-repeat bottom right;
+                                                background-color: rgba(0, 0, 0, 0.75);
+                                                -moz-box-shadow: 0px 0px 2px #000 inset;
+                                                -webkit-box-shadow: 0px 0px 2px #000 inset;
+                                                box-shadow: 0px 0px 2px #000 inset;
+                                            }
+                                            ul.menu li a img {
+                                                border: none;
+                                                position: absolute;
+                                                width: 0px;
+                                                height: 0px;
+                                                bottom: 0px;
+                                                left: 85px;
+                                                z-index: 100;
+                                                -moz-box-shadow: 0px 0px 4px #000;
+                                                -webkit-box-shadow: 0px 0px 4px #000;
+                                                box-shadow: 0px 0px 4px #000;
+                                            }
+                                            ul.menu li span.wrap {
+                                                position: absolute;
+                                                top: 25px;
+                                                left: 0px;
+                                                width: 170px;
+                                                height: 60px;
+                                                z-index: 15;
+                                            }
+                                            ul.menu li span.active {
+                                                position: absolute;
+                                                background: rgba(0, 0, 0, 0.75);
+                                                top: 61px;
+                                                width: 135px;
+                                                height: 0px;
+                                                left: 0px;
+                                                z-index: 14;
+                                                -moz-box-shadow: 0px 0px 4px #000 inset;
+                                                -webkit-box-shadow: 0px 0px 4px #000 inset;
+                                                box-shadow: 0px 0px 4px #000 inset;
+                                                -webkit-box-shadow: 0px 0px 4px #000 inset;
+                                                -moz-box-shadow: 0px 0px 4px #000 inset;
+                                                box-shadow: 0px 0px 4px #000 inset;
+                                                -webkit-border-bottom-right-radius: 15px;
+                                                -webkit-border-bottom-left-radius: 15px;
+                                                border-bottom-right-radius: 15px;
+                                                -moz-border-radius-bottomright: 15px;
+                                                border-bottom-left-radius: 15px;
+                                                -moz-border-radius-bottomleft: 15px;
+                                            }
+                                            ul.menu li span span.link,
+                                            ul.menu li span span.descr,
+                                            ul.menu li div.box a {
+                                                margin-left: 4px;
+                                                text-transform: uppercase;
+                                                text-shadow: 1px 1px 1px #000;
+                                            }
+                                            ul.menu li span span.link {
+                                                color: #fff;
+                                                font-size: 18px;
+                                                float: left;
+                                                clear: both;
+                                            }
+                                            ul.menu li span span.descr {
+                                                color: #b46b03;
+                                                float: left;
+                                                clear: both;
+                                                width: 155px;
+                                                /*For dumbass IE7*/
+                                                
+                                                font-size: 10px;
+                                                letter-spacing: 1px;
+                                            }
+                                            ul.menu li div.box {
+                                                display: block;
+                                                position: absolute;
+                                                width: 170px;
+                                                overflow: hidden;
+                                                height: 170px;
+                                                top: 85px;
+                                                left: 0px;
+                                                display: none;
+                                                background: #000;
+                                            }
+                                            ul.menu li div.box a {
+                                                float: left;
+                                                clear: both;
+                                                line-height: 30px;
+                                                color: #0B75AF;
+                                            }
+                                            ul.menu li div.box a:first-child {
+                                                margin-top: 15px;
+                                            }
+                                            ul.menu li div.box a:hover {
+                                                color: #fff;
+                                            }
+                                            .link-two {
+                                                width: 100%;
+                                                color: #fff;
+                                                display: none;
+                                                margin: 10px 0 0;
+                                            }
+                                            .descr-two {
+                                                color: #b46b03;
+                                                display: none;
+                                            }
+                                            article {
+                                                display: none;
+                                            }
+                                            .centr {
+                                                text-align: center;
+                                            }
+                                            .close {
+                                                float: left;
+                                                height: auto;
+                                                position: relative;
+                                                top: -20px;
+                                                width: 100%;
+                                            }
+                                            .close img {
+                                                float: right;
+                                            }
+                                            .close-galery {
+                                                float: left;
+                                                height: auto;
+                                                position: relative;
+                                                top: 0px;
+                                                width: 100%;
+                                            }
+                                            .close-galery img {
+                                                float: right;
+                                            }
+                                            .image {
+                                                border: 2px solid rgba(255, 255, 255, 0.15);
+                                                border-radius: 5px;
+                                                float: right;
+                                                -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                                -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                            }
+                                            /* Pop Up */
+                                            #popupAbout,
+                                            #popupProjects,
+                                            #popupContact,
+                                            #popupBlog {
+                                                height: 590px;
+                                                width: 900px;
+                                                overflow-y: scroll;
+                                                background-color: rgba(0, 0, 0, 0.80);
+                                                border: 1px solid #cecece;
+                                                padding: 20px;
+                                                color: #FFF;
+                                                -webkit-box-shadow: 0px 0px 4px #000 inset;
+                                                -moz-box-shadow: 0px 0px 4px #000 inset;
+                                                box-shadow: 0px 0px 4px #000 inset;
+                                                -webkit-border-radius: 10px;
+                                                -moz-border-radius: 10px;
+                                                -o-border-radius: 10px;
+                                                -ms-border-radius: 10px;
+                                                -khtml-border-radius: 10px;
+                                                border-radius: 10px;
+                                                margin: 0px auto;
+                                                visibility: visible;
+                                                z-index: 15;
+                                            }
+                                            #popupAbout p,
+                                            #popupProjects p,
+                                            #popupContact p,
+                                            #popupBlog p {
+                                                padding-left: 10px;
+                                                font-size: 16px;
+                                                line-height: 24px;
+                                            }
+                                            #popupAbout h1,
+                                            #popupProjects h1,
+                                            #popupContact h1,
+                                            #popupBlog h1 {
+                                                text-align: center;
+                                                font-size: 30px;
+                                                letter-spacing: 1px;
+                                                padding-bottom: 2px;
+                                                margin: 0;
+                                            }
+                                            #popupAboutClose,
+                                            #popupProjectsClose,
+                                            #popupContactClose,
+                                            #popupBlogClose {
+                                                right: 0;
+                                                top: 15px;
+                                                position: absolute;
+                                                cursor: pointer;
+                                                display: block;
+                                                opacity: 0.5;
+                                                -webkit-transition: all .25s linear;
+                                                -moz-transition: all .25s linear;
+                                                -o-transition: all .25s linear;
+                                                -ms-transition: all .25s linear;
+                                                transition: all .25s linear;
+                                            }
+                                            #popupAboutClose:hover,
+                                            #popupProjectsClose:hover,
+                                            #popupContactClose:hover,
+                                            #popupBlogClose:hover {
+                                                opacity: 1;
+                                                -webkit-transition: all .25s linear;
+                                                -moz-transition: all .25s linear;
+                                                -o-transition: all .25s linear;
+                                                -ms-transition: all .25s linear;
+                                                transition: all .25s linear;
+                                            }
+                                            .border {
+                                                height: 3px;
+                                                clear: both;
+                                                border-bottom: 1px dotted #FFF;
+                                            }
+                                            #non {
+                                                display: none;
+                                            }
+                                            *:focus {
+                                                outline: none;
+                                                /* Prevents blue border in Webkit */
+                                            }
+                                            form {
+                                                position: relative;
+                                                font-family: 'Century Gothic', arial, serif;
+                                                width: 350px;
+                                                margin-left: 25px;
+                                            }
+                                            .man {
+                                                position: absolute;
+                                                top: 15%;
+                                                left: 400px;
+                                            }
+                                            input,
+                                            textarea {
+                                                background-color: white;
+                                                border: 1px solid #0088cc;
+                                                width: 290px;
+                                                min-height: 30px;
+                                                display: block;
+                                                margin-bottom: 16px;
+                                                margin-top: 8px;
+                                                -webkit-border-radius: 5px;
+                                                -moz-border-radius: 5px;
+                                                -o-border-radius: 5px;
+                                                -ms-border-radius: 5px;
+                                                -khtml-border-radius: 5px;
+                                                padding-left: 10px;
+                                                border-radius: 5px;
+                                                -webkit-transition: all 0.5s ease-in-out;
+                                                -moz-transition: all 0.5s ease-in-out;
+                                                -o-transition: all 0.5s ease-in-out;
+                                                -ms-transition: all 0.5s ease-in-out;
+                                                transition: all 0.5s ease-in-out;
+                                                color: black;
+                                            }
+                                            textarea {
+                                                padding-top: 10px;
+                                                min-height: 190px;
+                                                resize: none;
+                                            }
+                                            input:focus,
+                                            textarea:focus {
+                                                -webkit-box-shadow: 0 0 25px #ccc;
+                                                -moz-box-shadow: 0 0 25px #ccc;
+                                                box-shadow: 0 0 25px #ccc;
+                                            }
+                                            /* The interesting bit */
+                                            input:not(:focus),
+                                            textarea:not(:focus) {
+                                                opacity: 0.5;
+                                            }
+                                            input:required,
+                                            textarea:required {
+                                                background: url("images/asterisk_orange.png") no-repeat 280px 7px;
+                                            }
+                                            input:valid,
+                                            textarea:valid {
+                                                background: url("images/tick.png") no-repeat 280px 5px;
+                                            }
+                                            input:focus:invalid,
+                                            textarea:focus:invalid {
+                                                background: url("images/cancel.png") no-repeat 280px 7px;
+                                            }
+                                            input[type=submit] {
+                                                width: 304px;
+                                                font-size: 24px;
+                                                color: grey;
+                                                padding: 10px;
+                                                background: none;
+                                                opacity: 1.0;
+                                            }
+                                            input[type=submit]:hover {
+                                                color: #0b75af;
+                                                cursor: pointer;
+                                            }
+                                            .map {
+                                                margin-top: -500px;
+                                                margin-right: 25px;
+                                                border: 5px solid rgba(255, 255, 255, 0.30);
+                                                -webkit-border-radius: 5px;
+                                                -moz-border-radius: 5px;
+                                                -o-border-radius: 5px;
+                                                -ms-border-radius: 5px;
+                                                -khtml-border-radius: 5px;
+                                                border-radius: 5px;
+                                                float: right;
+                                            }
+                                            .date {
+                                                float: left;
+                                                position: relative;
+                                                top: 14px;
+                                                margin-right: 10px;
+                                                padding: 44px 5px 0;
+                                            }
+                                            .date .month {
+                                                text-transform: uppercase;
+                                                font-size: 28px;
+                                            }
+                                            .date .day {
+                                                font-size: 32px;
+                                                line-height: 45px;
+                                                position: absolute;
+                                                left: 5px;
+                                                top: 0;
+                                            }
+                                            .date .year {
+                                                display: block;
+                                                position: absolute;
+                                                right: -6px;
+                                                top: 15px;
+                                                -webkit-transform: rotate(-90deg);
+                                                -moz-transform: rotate(-90deg);
+                                                -o-transform: rotate(-90deg);
+                                                -ms-transform: rotate(-90deg);
+                                                transform: rotate(-90deg);
+                                            }
+                                            .margin {
+                                                left: 60px;
+                                                position: relative;
+                                                width: 90%;
+                                            }
+                                            @media all and (min-width: 1600px) {
+                                                #content-page {
+                                                    width: auto;
+                                                    right: 70px;
+                                                    bottom: 180px;
+                                                }
+                                                
+                                                .block-phone {
+                                                    bottom: 180px;
+                                                }
+                                            }
+                                            @media all and (max-width: 1600px) {
+                                                #content-page {
+                                                    width: auto;
+                                                    right: 70px;
+                                                    bottom: 140px;
+                                                }
+                                                
+                                                .block-phone {
+                                                    top: 60px;
+                                                    bottom: 140px;
+                                                }
+                                            }
+                                            @media all and (max-width: 1380px) {
+                                                #content-page {
+                                                    width: auto;
+                                                    right: 60px;
+                                                    bottom: 50px;
+                                                }
+                                                
+                                                .block-phone {
+                                                    top: 70px;
+                                                    bottom: 50px;
+                                                }
+                                            }
+                                            @media all and (max-width: 1282px) {
+                                                #content-page {
+                                                    width: 920px;
+                                                    bottom: 5px;
+                                                }
+                                                
+                                                .block-phone {
+                                                    bottom: 5px;
+                                                }
+                                            }
+                                            @media all and (max-width: 1256px) {
+                                                #top-menu {
+                                                    margin: 0;
+                                                }
+                                                
+                                                #content-page {
+                                                    left: 300px;
+                                                    width: 900px;
+                                                }
+                                            }
+                                            @media all and (max-width: 1219px) {
+                                                #top-menu {
+                                                    margin: 0;
+                                                }
+                                                
+                                                #content-page {
+                                                    left: 310px;
+                                                    width: 800px;
+                                                    font-size: 16px;
+                                                }
+                                                
+                                                .contect-block-1 {
+                                                    margin-left: auto;
+                                                    margin-right: auto;
+                                                }
+                                                
+                                                .contect-block-1 span {
+                                                    font-size: 32px;
+                                                }
+                                                
+                                                @media all and (max-width: 1182px) {
+                                                    #top-menu a {
+                                                        font-size: 17px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: 0;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 1141px) {
+                                                    #top-menu {
+                                                        margin: 0;
+                                                    }
+                                                    #content-page {
+                                                        left: 300px;
+                                                        width: 750px;
+                                                    }
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        margin-left: 75px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 1114px) {
+                                                    #top-menu {
+                                                        margin: 0;
+                                                    }
+                                                    #content-page {
+                                                        left: 300px;
+                                                    }
+                                                    #toolbar {
+                                                        display: none;
+                                                    }
+                                                    #toolbar {
+                                                        display: none;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 1094px) {
+                                                    #content-page {
+                                                        top: 30px;
+                                                        left: 290px;
+                                                        bottom: 20px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -20px 0 0 -20px;
+                                                    }
+                                                    .block-phone {
+                                                        top: 50px;
+                                                        left: -20px;
+                                                        bottom: 20px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        left: 200px;
+                                                        width: 210px;
+                                                    }
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 874px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 1068px) {
+                                                    #content-page {
+                                                        top: 20px;
+                                                        left: 260px;
+                                                        bottom: 20px;
+                                                        width: 750px;
+                                                    }
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 820px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -30px 0 0 -40px;
+                                                    }
+                                                    .block-phone {
+                                                        top: 40px;
+                                                        left: -40px;
+                                                        bottom: 20px;
+                                                    }
+                                                    .rollbar-content {
+                                                        width: 96%;
+                                                    }
+                                                    #popupAbout .customScrollBox .container {
+                                                        width: 850px;
+                                                    }
+                                                    .contect-block-1 span {
+                                                        font-size: 33px;
+                                                    }
+                                                    .contect-block-1 {
+                                                        width: 48%;
+                                                    }
+                                                    .razmer {
+                                                        float: left;
+                                                        width: 38%;
+                                                    }
+                                                    .razmer-dvas {
+                                                        float: left;
+                                                        width: 62%;
+                                                    }
+                                                    noindex {
+                                                        display: none;
+                                                    }
+                                                    .thumbScroller {
+                                                        display: none;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 1025px) {
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 800px;
+                                                    }
+                                                    .rollbar-content {
+                                                        width: 98%;
+                                                    }
+                                                    #content-page {
+                                                        width: 700px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -30px 0 0 -40px;
+                                                    }
+                                                    .utp-page-block-one {
+                                                        width: 100%;
+                                                        margin: 0 auto;
+                                                    }
+                                                    #top-menu li ul li a:focus {
+                                                        color: #b46b03;
+                                                    }
+                                                    #top-menu li:focus ul {
+                                                        padding: 15px 0;
+                                                        background: #333;
+                                                        opacity: 1;
+                                                        visibility: visible;
+                                                        box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+                                                        animation-name: swingdown;
+                                                        animation-duration: 1s;
+                                                        animation-timing-function: ease;
+                                                        background: rgba(0, 0, 0, 0.85);
+                                                        box-shadow: 0 0 25px #000 inset;
+                                                    }
+                                                    #popupAboutClose:focus,
+                                                    #popupProjectsClose:focus,
+                                                    #popupContactClose:focus,
+                                                    #popupBlogClose:focus {
+                                                        opacity: 1;
+                                                        -webkit-transition: all .25s linear;
+                                                        -moz-transition: all .25s linear;
+                                                        -o-transition: all .25s linear;
+                                                        -ms-transition: all .25s linear;
+                                                        transition: all .25s linear;
+                                                    }
+                                                    #gallery img:focus {
+                                                        border-radius: 0%;
+                                                        -webkit-border-radius: 0%;
+                                                        -moz-border-radius: 0%;
+                                                        -o-border-radius: 0%;
+                                                        -ms-border-radius: 0%;
+                                                        -webkit-filter: contrast(165%);
+                                                        filter: contrast(165%);
+                                                    }
+                                                    hgroup a:focus {
+                                                        color: #0b75af;
+                                                        -webkit-transition: all 0.5s ease-out;
+                                                        -moz-transition: all 0.5s ease-out;
+                                                        -o-transition: all 0.5s ease-out;
+                                                        -ms-transition: all 0.5s ease-out;
+                                                        transition: all 0.5s ease-out;
+                                                    }
+                                                    #top-menu>li:focus>a {
+                                                        color: #b46b03;
+                                                        text-shadow: none;
+                                                    }
+                                                    #menu li li a:focus {
+                                                        color: rgba(0, 223, 252, 1);
+                                                        border-top: dotted 1px rgba(255, 255, 255, .15);
+                                                        border-bottom: dotted 1px rgba(255, 255, 255, .15);
+                                                        background: rgba(0, 223, 252, .02);
+                                                    }
+                                                    ul.menu li div.box a:focus {
+                                                        color: #fff;
+                                                    }
+                                                    .cont-centr {
+                                                        width: 100%;
+                                                        margin: 0 auto;
+                                                    }
+                                                    .cont-block {
+                                                        width: 100%;
+                                                        margin: 0 auto;
+                                                    }
+                                                    .cont-block .icon2 {
+                                                        position: absolute;
+                                                        top: -3px;
+                                                        left: 5px;
+                                                        width: 45px;
+                                                        height: 45px;
+                                                    }
+                                                    .contect-block-1 {
+                                                        width: 70%;
+                                                        margin-left: 100px;
+                                                    }
+                                                    .man {
+                                                        left: 370px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 972px) {
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 750px;
+                                                    }
+                                                    #content-page {
+                                                        left: 260px;
+                                                        width: 650px;
+                                                    }
+                                                    #top-menu a {
+                                                        font-size: 15px;
+                                                    }
+                                                    #top-menu {
+                                                        width: 140px;
+                                                    }
+                                                    .man {
+                                                        left: 330px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 959px) {
+                                                    #content-page {
+                                                        top: 0;
+                                                        left: 240px;
+                                                        bottom: 0;
+                                                        width: 650px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -50px 0 0 -60px;
+                                                    }
+                                                    .block-phone {
+                                                        top: 0;
+                                                        left: -60px;
+                                                        bottom: 0;
+                                                    }
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 730px;
+                                                    }
+                                                    .razmer {
+                                                        float: left;
+                                                        width: 43%;
+                                                    }
+                                                    .razmer-dvas {
+                                                        float: left;
+                                                        width: 56%;
+                                                    }
+                                                    .man {
+                                                        left: 310px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 930px) {
+                                                    #content-page {
+                                                        left: 240px;
+                                                        width: 640px;
+                                                    }
+                                                    .contect-block-1 span {
+                                                        font-size: 26px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 884px) {
+                                                    .top-menus {
+                                                        width: 130px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -30px 0 0 -60px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        left: 120px;
+                                                    }
+                                                    #content-page {
+                                                        top: 20px;
+                                                        left: 150px;
+                                                        bottom: 20px;
+                                                        width: 700px;
+                                                    }
+                                                    .contect-block-1 {
+                                                        width: 97%;
+                                                    }
+                                                    .block-phone {
+                                                        display: none;
+                                                    }
+                                                    .man {
+                                                        display: none;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 851px) {
+                                                    #content-page {
+                                                        width: 650px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 790px) {
+                                                    .top-menus {
+                                                        width: 730px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -50px 0 0 -50px;
+                                                        text-align: center;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        top: 30px;
+                                                        width: 600px;
+                                                        left: 70px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        top: 270px;
+                                                        bottom: 5px;
+                                                        margin-left: -90px;
+                                                    }
+                                                    .tnn {
+                                                        left: -7px;
+                                                        position: relative;
+                                                        top: 24px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 705px) {
+                                                    .top-menus {
+                                                        width: 700px;
+                                                    }
+                                                    #top-menu {
+                                                        margin: -50px 0 0 -60px;
+                                                        text-align: center;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        top: 30px;
+                                                        width: 600px;
+                                                        left: 50px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        top: 270px;
+                                                        bottom: 0;
+                                                        margin-left: -90px;
+                                                    }
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 405px;
+                                                        margin-left: 112px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 650px) {
+                                                    #thumbnails_wrapper {
+                                                        display: none;
+                                                    }
+                                                    #outer_container {
+                                                        display: none;
+                                                    }
+                                                    .top-menus {
+                                                        width: 640px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 560px;
+                                                        left: 40px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        top: 270px;
+                                                        bottom: 0;
+                                                        margin-left: -100px;
+                                                    }
+                                                    .img-portret {
+                                                        width: 178px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 610px) {
+                                                    #thumbnails_wrapper {
+                                                        display: none;
+                                                    }
+                                                    #outer_container {
+                                                        display: none;
+                                                    }
+                                                    .top-menus {
+                                                        width: 600px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 500px;
+                                                        left: 50px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        margin-left: -70px;
+                                                        font-size: 14px;
+                                                    }
+                                                    h1,
+                                                    h2 {
+                                                        font-size: 90%;
+                                                    }
+                                                    .icon2 {
+                                                        display: none;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 590px) {
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        width: 300px;
+                                                    }
+                                                    #popupAbout p,
+                                                    #popupProjects p,
+                                                    #popupContact p,
+                                                    #popupBlog p {
+                                                        font-size: 14px;
+                                                        line-height: 14px;
+                                                    }
+                                                    .top-menus {
+                                                        width: 576px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 460px;
+                                                        left: 55px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        bottom: 5px;
+                                                        margin-left: -110px;
+                                                    }
+                                                    .ttn {
+                                                        width: 55%;
+                                                    }
+                                                    .contect-block-1 span {
+                                                        font-size: 16px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 550px) {
+                                                    .top-menus {
+                                                        width: 540px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 440px;
+                                                        left: 50px;
+                                                    }
+                                                    #content-page {
+                                                        width: 540;
+                                                        height: auto !important;
+                                                        bottom: 5px;
+                                                        margin-left: -80px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 518px) {
+                                                    .top-menus {
+                                                        width: 510px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 400px;
+                                                        left: 50px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        margin-top: 120px;
+                                                        margin-left: -80px;
+                                                        bottom: 5px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 500px) {
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        margin-top: 30px;
+                                                        margin-left: 67px;
+                                                    }
+                                                    .top-menus {
+                                                        width: 480px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 400px;
+                                                        left: 40px;
+                                                    }
+                                                    #content-page {
+                                                        width: 450px;
+                                                        margin-left: -60px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 474px) {
+                                                    #popupAbout,
+                                                    #popupProjects,
+                                                    #popupContact,
+                                                    #popupBlog {
+                                                        margin-top: 30px;
+                                                        margin-left: 67px;
+                                                    }
+                                                    .nextImageBtn,
+                                                    .prevImageBtn {
+                                                        display: none;
+                                                    }
+                                                    .top-menus {
+                                                        width: 400px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 380px;
+                                                        left: 10px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        bottom: 5px;
+                                                        margin-left: -60px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 380px) {
+                                                    .top-menus {
+                                                        width: 360px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 340px;
+                                                        left: 10px;
+                                                    }
+                                                    #content-page {
+                                                        width: auto;
+                                                        bottom: 5px;
+                                                    }
+                                                }
+                                                
+                                                @media all and (max-width: 330px) {
+                                                    .top-menus {
+                                                        width: 320px;
+                                                    }
+                                                    .top-menus .sub-menu {
+                                                        width: 300px;
+                                                        left: 10px;
+                                                    }
+                                                    #content-page {
+                                                        width: 310px;
+                                                    }
+                                                }
